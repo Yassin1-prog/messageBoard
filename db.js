@@ -8,4 +8,7 @@ const connectionString =
 
 module.exports = new Pool({
   connectionString: connectionString,
+  ssl: {
+    rejectUnauthorized: false, // Add SSL
+  },
 });
