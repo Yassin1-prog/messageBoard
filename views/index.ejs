@@ -14,9 +14,9 @@
     <div class="container">
       <% messages.map((message) => { %>
       <div class="message">
-        <div class="user">User: <%= message.user %></div>
+        <div class="user">User: <%= message.username %></div>
         <div class="text"><%= message.text %></div>
-        <div class="date">Date Added: <%= message.added %></div>
+        <div class="date">Date Added: <%= message.date %></div>
       </div>
       <% }) %>
     </div>
